@@ -153,38 +153,6 @@ h2 + p{
   color: white;
   background: black;
 }
-/****MODIFIES SECOND SECTION CONTAINER****/
-.row3{
-  float: left;
-  width: 100%;
-  height: 800px;
-}
-.tri2{
-  width: 21.33333%;
-  float: left;
-  margin-left: 6%;
-  border: 3px solid black;
-  z-index: 2;
-  margin-right: 6%;
-  height: 300px;
-}
-.tri2 section{
-  z-index: 3;
-  margin-top: 250px;
-  background: black;
-  color: white;
-  width: 50%;
-  text-align: center;
-  padding: 0 0 5% 0;
-  margin-left: 25%;
-}
-.tri2 section h5, h5 + span{
-  padding: 5% 0%;
-}
-.tri2 section h5{
-  padding-top: 15%;
-}
-
 
 .bottom{
   width: 60%;
