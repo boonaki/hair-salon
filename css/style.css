@@ -5,7 +5,6 @@
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 100%;
   vertical-align: baseline;
   background: transparent;
 }
@@ -33,15 +32,32 @@ body {
 }
 a{
   text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
 }
-
+html{
+  font-size: 62.5%;
+}
+p{
+  font-size: 2.0rem
+}
+h3{
+  font-size: 2.8rem
+}
 /******************************************
 /* LAYOUT
 /****MODIFIES HEADER****/
+
+main{
+  background: gold;
+}
 nav{
   width: 100%;
-  float: left;
-  margin-top: 2%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 nav span:last-child{
   float: right;
@@ -49,6 +65,7 @@ nav span:last-child{
 }
 .logo{
   margin-left: 2%;
+  font-size: 2.7rem;
 }
 nav span + a{
   margin-left: 20%;
@@ -56,6 +73,7 @@ nav span + a{
 nav a{
   margin-left: 5%;
   color: black;
+  font-size: 1.8rem;
 }
 nav a + img{
   margin: 0 3%;
@@ -64,13 +82,15 @@ nav a + img{
 main{
   float: left;
   width: 100%;
-  margin-left: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%
 }
 .mainh1{
   margin-top: 5%;
 }
+
 h1{
-  font-size: 55px;
+  font-size: 5.5rem;
   margin: 0;
 }
 
@@ -86,10 +106,10 @@ main > p{
   color: white;
 }
 .firstvis > span{
-  font-size: 12px;
+  font-size: 1.5rem;
 }
 .firstvis p > span{
-  font-size: 30px;
+  font-size: 3.0rem;
   font-weight: bold;
 }
 .firstvis p{
@@ -100,13 +120,15 @@ main > p{
   background: white;
   color: black;
   padding: 5% 8%;
-  font-size: 10px;
+  font-size: 1.2rem;
 }
-
+.trisec{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .tri{
-  width: 25%;
-  float: left;
-  padding-right: 11%;
+  width: 20%;
   text-align: center;
   line-height: 25px;
 }
@@ -114,11 +136,11 @@ h3{
   margin: 5% 0;
 } 
 .tri p{
-  font-size: 15px;
+  font-size: 1.5rem;
 }
-.firstvis + section{
+/* .firstvis + section{
   margin-left: 10%;
-}
+} */
 .tri:last-child{
   margin-right: 10%;
 }
@@ -152,6 +174,7 @@ h2 + p{
   padding: 5% 8%;
   color: white;
   background: black;
+  font-size: 1.8rem;
 }
 
 .bottom{
@@ -178,7 +201,7 @@ h2 + p{
   font-weight: bold;
 }
 .bottom p{
-  font-size: 25px;
+  font-size: 2.5rem;
 
 }
 /****MODIFIES LOOK SECTION CONTAINER****/
