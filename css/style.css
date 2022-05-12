@@ -120,10 +120,13 @@ nav span:last-child{
 nav span + a{
   margin-left: 20%;
 }
-nav a{
+nav > a{
   margin-left: 5%;
   color: black;
   font-size: 1.8rem;
+}
+nav a:hover{
+  border-bottom: 1px solid black;
 }
 nav a + img{
   margin: 0 3%;
