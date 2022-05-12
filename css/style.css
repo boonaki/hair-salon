@@ -32,7 +32,7 @@
 }
 nav .icon{
   font-size: 2.5rem;
-  margin: 0 30px;
+  margin: 0 1% 0 3%;
 }
 
   .icon:before {
@@ -94,7 +94,7 @@ h3{
 
 main{
   background-image: url(../imgs/bg.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   color: white;
   float: left;
   width: 100%;
@@ -111,6 +111,7 @@ nav{
 nav span:last-child{
   float: right;
   width: 10%;
+  margin-left: 5%;
 }
 .logo{
   margin-left: 2%;
@@ -146,7 +147,7 @@ main > p{
   margin: 7% 0 0 5%;
   width: 400px;
   padding: 50px;
-  background: #000000cf;
+  background: #000000;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -160,7 +161,7 @@ main > p{
 .firstvis p{
   margin-bottom: 15%;
   margin-top: 5%;
-  font-size: 3.0rem;
+  font-size: 2.0rem;
   line-height: 45px;
 }
 .firstvis a{
@@ -225,9 +226,6 @@ h2 + p{
   background: black;
   font-size: 1.8rem;
 }
-h4{
-  font-size: 3.3rem;
-}
 
 .bottom{
   width: 60%;
@@ -259,8 +257,47 @@ h4{
 .bottom p{
   font-size: 2.5rem;
 }
+
 /****MODIFIES LOOK SECTION CONTAINER****/
-.look{
+h4{
+  font-size: 3.3rem;
+  padding: 80px 0 0 0;
+}
+h4+span{
+  padding: 0 0 80px 0;
+  font-size: 4.5rem;
+}
+#look{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#lookBook{
+  display: flex;
+  flex-direction: row;
+}
+#middle, #left, #right{
+  margin: 0 20px;
+}
+.secImgRec img, .secImgSq img{
+  height: 50px;
+  width: 400px;
+}
+.secImgSq img{
+  height: 400px;
+  object-fit: cover;
+}
+.secImgRec img{
+  height: 800px;
+}
+#sec2, #sec4, #sec6{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+/* .look{
   width: 100%;
   float: left;
   height: 900px;
@@ -276,7 +313,6 @@ h4{
   height: 700px;
   float: left;
   width: 50%;
-  /* border: 2px solid black; */
   margin-top: 5%;
   margin-left: 25%;
 }
@@ -286,8 +322,6 @@ h4{
   width: 33.3333%;
 }
 .look div section{
-  
-  /* border: 2px solid black; */
   width: 90%;
   margin: 5%;
 }
@@ -300,21 +334,12 @@ h4{
   height: 400px;
   width: 100%;
 }
-/* .sec1{
-  background-image: url(../imgs/sec1img.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: relative;
-} */
 .sec1, .sec4, .sec5{
   height: 22.5%;
   
 }
 #sec2, #sec6{
   margin-top: 60px;
-}
-/* .sec2, .sec3, .sec6{
-  height: 70%;
 } */
 /******************************************
 /* ADDITIONAL STYLES
