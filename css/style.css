@@ -279,15 +279,15 @@ h4+span{
   flex-direction: row;
 }
 #middle, #left, #right{
-  margin: 0 20px;
+  margin: 0 10px;
 }
 .secImgRec img, .secImgSq img{
   height: 50px;
   width: 400px;
+  object-fit: cover;
 }
 .secImgSq img{
   height: 400px;
-  object-fit: cover;
 }
 .secImgRec img{
   height: 800px;
