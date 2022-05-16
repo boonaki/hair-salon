@@ -361,9 +361,20 @@ caption{
   nav > a, nav span:last-child{
     margin-left: 20px;
   }
+  #momentum{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #momentum section{
+    padding: 0;
+  }
+  #momentum img{
+    margin-right: 5%;
+    width: 450px;
+  }
 }
 @media screen and (max-width: 880px) {
-  nav a, .tri2, #momentum img{
+  nav a, .tri2{
     display: none;
   }
   nav{
@@ -382,8 +393,37 @@ caption{
   #booking{
     height: 1200px;
   }
+  #about{
+    flex-direction: column;
+  }
+  .tri{
+    float: none;
+    width: 100%;
+    text-align: center;
+    /* margin-left: 10%;
+    margin-top: 5%; */
+  }
+  #momentum img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
 }
-@media all and (max-width: 500px){
+@media screen and (max-width: 650px) {
+  #momentum{
+    flex-direction: column;
+    align-items: center;
+  }
+  #momentum section {
+    /* margin: 5% 0 5% 5%; */
+    padding: 5%;
+    width: 100%;
+  }
+  #momentum img{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 550px){
   
   nav{
     text-align: center;
@@ -397,13 +437,6 @@ caption{
   .firstvis span a{
     padding: 2% 3%;
     
-  }
-  .tri{
-    float: none;
-    width: 70%;
-    text-align: center;
-    margin-left: 10%;
-    margin-top: 5%;
   }
   #momentum{
     width: 100%;
