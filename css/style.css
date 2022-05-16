@@ -117,6 +117,10 @@ nav span:last-child{
   margin-left: 2%;
   font-size: 2.7rem;
 }
+#hamburg{
+  display: none;
+  cursor: pointer;
+}
 nav span + a{
   margin-left: 20%;
 }
@@ -213,7 +217,7 @@ h3{
 }
 #momentum img{
   float: right;
-  width: 700px;
+  width: 35%;
   margin-right: 15%;
 }
 h2{
@@ -319,9 +323,6 @@ h4{
 #time{
   width: 20%;
 }
-#booking th{
-  width: 10%;
-}
 #booking td{
   border: 2px solid black;
   text-align: center;
@@ -329,6 +330,7 @@ h4{
 }
 .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
   cursor: pointer;
+  width: 10%;
 }
 .green{
   background: green;
@@ -347,10 +349,42 @@ caption{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-@media all and (max-width: 500px){
+@media screen and (max-width: 1450px) {
+  nav span + a{
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1180px) {
+  nav span + a{
+    margin-left: 3%;
+  }
+  nav > a, nav span:last-child{
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
   nav a, .tri2, #momentum img{
     display: none;
   }
+  nav{
+    justify-content: normal;
+  }
+  #hamburg{
+    display: block;
+    margin-left: 20px;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  html{
+    font-size: 50%;
+  }
+  #booking{
+    height: 1200px;
+  }
+}
+@media all and (max-width: 500px){
+  
   nav{
     text-align: center;
   }
@@ -373,7 +407,6 @@ caption{
   }
   #momentum{
     width: 100%;
-    
   }
   #momentum section{
     margin: 0 0 0 5%;
