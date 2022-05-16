@@ -300,51 +300,6 @@ h4{
   margin-bottom: 50px;
 }
 
-/* .look{
-  width: 100%;
-  float: left;
-  height: 900px;
-  margin-top: 5%;
-  text-align: center;
-  font-size: 20px;
-}
-.look > span{
-  width: 100%;
-  float: left;
-}
-.look > div{
-  height: 700px;
-  float: left;
-  width: 50%;
-  margin-top: 5%;
-  margin-left: 25%;
-}
-.look div > div{
-  height: 100%;
-  float: left;
-  width: 33.3333%;
-}
-.look div section{
-  width: 90%;
-  margin: 5%;
-}
-.secimgSQ img{
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
-.secimgrec img{
-  height: 400px;
-  width: 100%;
-}
-.sec1, .sec4, .sec5{
-  height: 22.5%;
-  
-}
-#sec2, #sec6{
-  margin-top: 60px;
-} */
-
 /****MODIFIES BOOKING+CONTACT PAGE****/
 #booking, #contact{
   background: #dbcfb4;
