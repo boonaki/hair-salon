@@ -125,7 +125,7 @@ nav > a{
   color: black;
   font-size: 1.8rem;
 }
-nav a:hover{
+nav a:focus, nav a:hover{
   border-bottom: 1px solid black;
 }
 nav a + img{
@@ -173,7 +173,7 @@ main > p{
   padding: 5% 8%;
   font-size: 2.0rem;
 }
-.trisec{
+#about{
   padding: 50px 0 50px 0;
   width: 100%;
   display: flex;
@@ -196,7 +196,7 @@ h3{
   font-size: 1.7rem;
 }
 /****MODIFIES FIRST SECTION CONTAINER****/
-.row2{
+#momentum{
   width: 100%;
   float: left;
   padding: 5% 0;
@@ -205,13 +205,13 @@ h3{
   background: #dbcfb4;
   /* margin-bottom: 5%; */
 }
-.row2 section{
+#momentum section{
   width: 50%;
   margin-left: 5%;
   padding-left: 15%;
   padding-right: 10%;
 }
-.row2 img{
+#momentum img{
   float: right;
   width: 700px;
   margin-right: 15%;
@@ -223,7 +223,7 @@ h2{
 h2 + p{
   margin: 5% 0 8% 0;
 }
-.row2 span a{
+#momentum span a{
   padding: 5% 8%;
   color: white;
   background: black;
@@ -348,7 +348,7 @@ h4{
 /* ADDITIONAL STYLES
 /*******************************************/
 @media all and (max-width: 500px){
-  nav a, .tri2, .row2 img{
+  nav a, .tri2, #momentum img{
     display: none;
   }
   nav{
@@ -371,11 +371,11 @@ h4{
     margin-left: 10%;
     margin-top: 5%;
   }
-  .row2{
+  #momentum{
     width: 100%;
     
   }
-  .row2 section{
+  #momentum section{
     margin: 0 0 0 5%;
     padding: 0;
     width: 100%;
