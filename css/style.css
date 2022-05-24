@@ -280,6 +280,7 @@ h4{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 10%;
 }
 #lookBook{
   display: flex;
@@ -376,6 +377,9 @@ caption{
     margin-right: 5%;
     width: 450px;
   }
+  #look{
+    padding: 0 5%;
+  }
 }
 @media screen and (max-width: 880px) {
   nav a, .tri2{
@@ -425,6 +429,9 @@ caption{
   }
   #momentum img{
     width: 400px;
+  }
+  #look{
+    padding: 0 2%;
   }
 }
 @media screen and (max-width: 550px){
