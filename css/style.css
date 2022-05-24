@@ -287,18 +287,22 @@ h4{
 }
 #middle, #left, #right{
   margin: 0 10px;
+  width: 33.3%;
 }
 .secImgRec img, .secImgSq img{
-  height: 50px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
-.secImgSq img{
-  height: 400px;
-}
 .secImgRec img{
-  height: 800px;
+  height: 80%;
 }
+.secImgSq{
+  height: 300px;
+}
+/* /* .secImgSq img{
+  height: 400px;
+}  */
 #sec2, #sec4, #sec6{
   margin-top: 20px;
   margin-bottom: 50px;
