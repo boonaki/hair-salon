@@ -202,8 +202,10 @@ h3{
 /****MODIFIES FIRST SECTION CONTAINER****/
 #momentum{
   width: 100%;
-  float: left;
-  padding: 5% 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 96px 0;
   line-height: 35px;
   height: 100%;
   background: #dbcfb4;
@@ -211,14 +213,12 @@ h3{
 }
 #momentum section{
   width: 50%;
-  margin-left: 5%;
-  padding-left: 15%;
-  padding-right: 10%;
+  /* padding-left: 15%; */
+  padding-right: 130px;
 }
 #momentum img{
-  float: right;
   width: 35%;
-  margin-right: 15%;
+  height: 420px;
 }
 h2{
   font-size: 35px;
@@ -228,7 +228,7 @@ h2 + p{
   margin: 5% 0 8% 0;
 }
 #momentum span a{
-  padding: 5% 8%;
+  padding: 28px 60px;
   color: white;
   background: black;
   font-size: 1.8rem;
@@ -366,15 +366,14 @@ caption{
   nav > a, nav span:last-child{
     margin-left: 20px;
   }
-  #momentum{
+  /* #momentum{
     display: flex;
     flex-direction: row-reverse;
-  }
+  } */
   #momentum section{
-    padding: 0;
+    padding: 0 20px;
   }
   #momentum img{
-    margin-right: 5%;
     width: 450px;
   }
   #look{
@@ -413,7 +412,7 @@ caption{
   }
   #momentum img{
     width: 300px;
-    height: 300px;
+    height: 275px;
     object-fit: cover;
   }
 }
@@ -422,13 +421,22 @@ caption{
     flex-direction: column;
     align-items: center;
   }
-  #momentum section {
-    /* margin: 5% 0 5% 5%; */
+  #momentum section{
     padding: 5%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #momentum span a{
+    padding: 28px 115px;
   }
   #momentum img{
-    width: 400px;
+    width: 85%;
+  }
+  #momentum span{
+    width: 100%;
+    text-align: center;
   }
   #look{
     padding: 0 2%;
@@ -452,10 +460,18 @@ caption{
   #momentum{
     width: 100%;
   }
-  #momentum section{
-    margin: 0 0 0 5%;
-    padding: 0;
-    width: 100%;
+  #momentum img{
+    height: 225px;
   }
+  /* #momentum section{
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #momentum span a{
+    padding: 5% 20%;;
+  } */
   
 }
